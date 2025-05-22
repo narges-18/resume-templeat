@@ -1,0 +1,163 @@
+/* فونت وزیر */
+@font-face {
+    font-family: 'Vazir';
+    src: url(../fonts/Vazirmatn-Regular.ttf);
+}
+/* فونت شبنم */
+@font-face {
+    font-family: 'sabnam';
+    src: url(../fonts/Shabnam.ttf);
+}
+/* فونت تیتر */
+@font-face {
+    font-family: 'titre';
+    src: url(../fonts/B\ Titr\ Bold_0.ttf);
+}
+/* فونت یکان */
+@font-face {
+    font-family: 'yekan';
+    src: url(../fonts/BYekan+.ttf);
+}
+ :root {
+    --main-color: #8ecae6;
+  }
+body {
+  font-family: 'Vazir', sans-serif;
+
+background-color: #f0f4f8;
+    transition: background-color 0.3s ease;
+    color: #333;
+}
+
+/* سبک پایه */
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+/* ناوبار */
+.navbar-light .navbar-nav .nav-link {
+  color: #555;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0d6efd;
+}
+
+/* رنگ‌های پاستیلی برای تم‌ها */
+.theme-pastel-1 { --primary-color: #a8dadc; --primary-color-dark: #457b9d; }
+.theme-pastel-2 { --primary-color: #ffb4a2; --primary-color-dark: #e76f51; }
+.theme-pastel-3 { --primary-color: #caf0f8; --primary-color-dark: #00b4d8; }
+.theme-pastel-4 { --primary-color: #ffd6e0; --primary-color-dark: #ff6f91; }
+.theme-pastel-5 { --primary-color: #d0f4de; --primary-color-dark: #40916c; }
+.theme-pastel-1 { --primary-color: #5D737E; --primary-color-dark: #5D737E; }
+.theme-pastel-2 { --primary-color: #6C5B7B; --primary-color-dark: #6C5B7B; }
+.theme-pastel-3 { --primary-color: #D99873; --primary-color-dark: #D99873; }
+.theme-pastel-4 { --primary-color: #6F4E37; --primary-color-dark: #6F4E37; }
+.theme-pastel-5 { --primary-color: #3B6E6F; --primary-color-dark: #3B6E6F; }
+
+/* استفاده از متغیر رنگ */
+
+
+.btn-primary {
+  background-color: var(--primary-color-dark, #0d6efd);
+  border-color: var(--primary-color-dark, #0d6efd);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color-dark, #0b5ed7);
+  border-color: var(--primary-color-dark, #0b5ed7);
+}
+.color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.color-circle:hover {
+  border-color: #fff;
+}
+  .resume-btn {
+  background-color: #6f42c1;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #5936a6;
+}
+.btn-download-resume {
+  background: linear-gradient(45deg, #5e60ce, #6930c3);
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(105, 48, 195, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-download-resume:hover {
+  background: linear-gradient(45deg, #6930c3, #7400b8);
+  box-shadow: 0 6px 20px rgba(105, 48, 195, 0.5);
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease;
+}
+
+.loader-text p {
+  font-size: 1.5rem;
+  color: #5e60ce;
+  animation: blink 1.2s infinite;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+#floating-lines {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* زیر همه عناصر باشه */
+  overflow: hidden;
+}
+
+#lines-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.btn-dark {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 10001;
+  background-color: #444;
+  color: #eee;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
