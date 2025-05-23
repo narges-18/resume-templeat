@@ -6,7 +6,6 @@ $(function () {
     'theme-pastel-3',
     'theme-pastel-4',
     'theme-pastel-5',
-    // ... ادامه بده تا 15-20 تم
   ];
 
   // بارگذاری تم از localStorage

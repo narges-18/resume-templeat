@@ -51,8 +51,6 @@ ul{
 .theme-pastel-4 { --primary-color: #6F4E37; --primary-color-dark: #6F4E37; }
 .theme-pastel-5 { --primary-color: #3B6E6F; --primary-color-dark: #3B6E6F; }
 
-/* استفاده از متغیر رنگ */
-
 
 .btn-primary {
   background-color: var(--primary-color-dark, #0d6efd);

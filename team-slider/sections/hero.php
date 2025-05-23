@@ -1,10 +1,3 @@
-<!-- <section id="hero" class="d-flex align-items-center" style="min-height: 100vh;">
-  <div class="container text-center">
-    <h1 class="display-4">سلام، من نرگس رضائی هستم</h1>
-    <p class="lead">توسعه‌دهنده فرانت‌اند و علاقه‌مند به طراحی تجربه کاربری</p>
-    <a href="#about" class="btn btn-primary mt-3">بیشتر بدانید</a>
-  </div>
-</section> -->
 <section id="hero" class="text-center" style="padding: 200px 20px;min-height: 100vh;">
   <h1>رزومه حرفه‌ای من</h1>
   <h3 id="hero-text" style="margin-top: 20px; font-weight: 300; font-size: 1.5rem;"></h3>

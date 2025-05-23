@@ -8,12 +8,12 @@
     <div class="row align-items-center">
       <!-- تصویر پروفایل -->
       <div class="col-md-5 mb-4 mb-md-0 text-center">
-        <img src="assets/images/profile.jpg" alt="نرگس رضائی" class="img-fluid rounded-5 shadow">
+        <img src="assets/images/profile.jpg" alt="تصویر پروفایل" class="img-fluid rounded-5 shadow">
       </div>
 
       <!-- توضیحات -->
       <div class="col-md-7">
-        <h4 class="mb-3">نرگس رضائی</h4>
+        <h4 class="mb-3">جان اسنو</h4>
         <p class="text-muted">
           توسعه‌دهنده وب فول‌استک با علاقه فراوان به خلق تجربه‌های کاربری جذاب و کارآمد. از زمان شروع یادگیری برنامه‌نویسی، هدفم ارائه راه‌حل‌های نوآورانه و بهینه برای کسب‌وکارها بوده است. در زمینه فرانت‌اند تخصص دارم و با تکنولوژی‌های HTML، CSS، JavaScript و فریم‌ورک‌هایی مانند Bootstrap و jQuery به خوبی آشنا هستم. همچنین با PHP به عنوان زبان بک‌اند کار می‌کنم تا پروژه‌ها را به صورت کامل و ماژولار پیاده‌سازی کنم.
 
@@ -24,7 +24,7 @@
         <ul class="list-unstyled mt-4">
           <li><strong>موقعیت:‌</strong> کاشان، ایران</li>
           <li><strong>تجربه:‌</strong> 2 سال پروژه‌های شخصی و فریلنسری</li>
-          <li><strong>ایمیل:‌</strong> nargesrezaeii16@gmail.com</li>
+          <li><strong>ایمیل:‌</strong> jansno@gmail.com</li>
         </ul>
 
 

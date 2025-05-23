@@ -49,9 +49,7 @@ h1, h2, h3, h4, h5 {
 .theme-pastel-3 { --primary-color: #caf0f8; --primary-color-dark: #00b4d8; }
 .theme-pastel-4 { --primary-color: #ffd6e0; --primary-color-dark: #ff6f91; }
 .theme-pastel-5 { --primary-color: #d0f4de; --primary-color-dark: #40916c; }
-/* ... اضافه کن تا 15-20 رنگ */
 
-/* استفاده از متغیر رنگ */
 
 
 .btn-primary {
